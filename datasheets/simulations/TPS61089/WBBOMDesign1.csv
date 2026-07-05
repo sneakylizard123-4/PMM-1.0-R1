@@ -1,0 +1,15 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cbst,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+Ccomp,MuRata,GRM1555C1H561JA01J,1,0.01,3,Cap: 560 pF  Total Derated Cap: 560 pF  VDC: 50 V  ESR: 0 Ω  Package: 0402  
+Ccomp2,Yageo,CC0402JRNPO9BN240,1,0.01,3,Cap: 24 pF  Total Derated Cap: 24 pF  VDC: 50 V  ESR: 0 Ω  Package: 0402  
+Cin,MuRata,GRM32ER61C476KE15L,3,0.17,14.7,Cap: 47 µF  Total Derated Cap: 95 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+Cin2,MuRata,GRM155R71C104KA88D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 94 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Cout,MuRata,GRM32ER61C476KE15L,2,0.17,14.7,Cap: 47 µF  Total Derated Cap: 63 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+Cvcc,TDK,C1608X5R1A106K080AC,1,0.06327,4.68,Cap: 10 µF  Total Derated Cap: 2.4 µF  VDC: 10 V  ESR: 4.62 mΩ  Package: 0603  
+L1,Coilcraft,XGL4030-471MEC,1,1.26,25,L: 470 nH  DCR: 3.9 mΩ  IDC: 14.2 A  
+Rcomp,Yageo,RC0201FR-0728K7L,1,0.01,2.08,Resistance: 28.7 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rfbb,Vishay-Dale,CRCW040276K8FKED,1,0.01,3,Resistance: 76.8 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbt,Yageo,RC0603FR-07240KL,1,0.01,4.68,Resistance: 240 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rlim,Yageo,RC0201FR-07133KL,1,0.01,2.08,Resistance: 133 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rt,Vishay-Dale,CRCW0402309KFKED,1,0.01,3,Resistance: 309 kΩ  Tolerance: 1.0%  Power: 63 mW  
+U1,Texas Instruments,TPS61089RNRR,1,1.012,10.5,
