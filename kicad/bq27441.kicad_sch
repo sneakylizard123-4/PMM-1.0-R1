@@ -1190,7 +1190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073aba3b-a523-4a93-a6e3-ba676adcb18b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR021"
 			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1250,7 +1250,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "#PWR035")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1268,7 +1268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17573de0-1bc6-4cdd-875b-6b6165fa9cfa")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR022"
 			(at 53.34 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1328,7 +1328,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "#PWR036")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1346,7 +1346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f43f0f0-4f01-4bbb-9e52-4cc93cf6889a")
-		(property "Reference" "C25"
+		(property "Reference" "C17"
 			(at 45.72 59.6962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1410,7 +1410,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "C25")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1428,7 +1428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3312d96a-03c7-4f1b-b7e4-6215fa6790fa")
-		(property "Reference" "R18"
+		(property "Reference" "R9"
 			(at 55.88 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,7 +1492,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "R18")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1510,7 +1510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9c31ac-9f1f-4602-8798-0b97afebd8e7")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR023"
 			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1570,7 +1570,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "#PWR037")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ca22c8-a1c3-4e3d-8a4a-07cef170cd77")
-		(property "Reference" "C26"
+		(property "Reference" "C18"
 			(at 96.52 31.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +1652,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1670,7 +1670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3eea9a3-1a0a-49a5-8039-0ba92485a67b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR024"
 			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1730,7 +1730,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "#PWR038")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1748,7 +1748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1679a42-dc8c-44b3-8326-9f3c16a22e87")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 72.39 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1844,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1862,7 +1862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff52959e-68d6-42d2-8684-e26bbb623eca")
-		(property "Reference" "R17"
+		(property "Reference" "R8"
 			(at 45.72 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1926,7 +1926,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/f17bf38e-84eb-4b8c-8211-b5a252381cf0"
-					(reference "R17")
+					(reference "R8")
 					(unit 1)
 				)
 			)

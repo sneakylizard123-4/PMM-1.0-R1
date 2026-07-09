@@ -1626,6 +1626,12 @@
 		)
 	)
 	(junction
+		(at 100.33 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c13c873-ebe1-416c-b6d1-5e95268d6566")
+	)
+	(junction
 		(at 204.47 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1653,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 48.26) (xy 36.83 48.26)
+			(xy 36.83 27.94) (xy 38.1 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 54.61) (xy 92.71 54.61)
+			(xy 99.06 59.69) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1683,13 +1689,33 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 50.8) (xy 36.83 50.8)
+			(xy 63.5 27.94) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f44eb38-26c5-4f60-935c-ae68bfd511c7")
+	)
+	(wire
+		(pts
+			(xy 36.83 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f3b9e65-9774-4c30-98eb-ed6b0bb69c0a")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85194248-b355-49f4-978c-cb67bca9b939")
 	)
 	(wire
 		(pts
@@ -1703,6 +1729,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 27.94) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a62427a-a7d0-4f4a-93f6-940d5913ca9f")
+	)
+	(wire
+		(pts
+			(xy 101.6 27.94) (xy 100.33 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8262e0-2ffc-4479-a866-8835648f8e48")
+	)
+	(wire
+		(pts
 			(xy 204.47 17.78) (xy 204.47 19.05)
 		)
 		(stroke
@@ -1713,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 92.71 48.26)
+			(xy 88.9 27.94) (xy 100.33 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 53.34) (xy 36.83 53.34)
+			(xy 36.83 33.02) (xy 38.1 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +1789,7 @@
 	)
 	(global_label "GPOUT"
 		(shape input)
-		(at 35.56 48.26 180)
+		(at 36.83 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1753,7 +1799,7 @@
 		)
 		(uuid "3ba7ea9d-9d89-4dc0-9c0a-2478a1a6db39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4062 48.26 0)
+			(at 27.6762 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,7 +1813,7 @@
 	)
 	(global_label "PACK+"
 		(shape input)
-		(at 35.56 50.8 180)
+		(at 36.83 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1777,7 +1823,7 @@
 		)
 		(uuid "633afcaf-6f10-4e6b-8bc3-38ea535a9e9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.1038 50.8 0)
+			(at 27.3738 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1861,7 @@
 	)
 	(global_label "TPS2291_ON"
 		(shape input)
-		(at 90.17 54.61 180)
+		(at 99.06 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1825,7 +1871,7 @@
 		)
 		(uuid "bbfcbc36-afd4-4279-8c89-623c282cdd17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.2711 54.61 0)
+			(at 84.1611 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +1885,7 @@
 	)
 	(global_label "PACK-"
 		(shape input)
-		(at 35.56 53.34 180)
+		(at 36.83 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1849,7 +1895,7 @@
 		)
 		(uuid "f43f5a00-2436-4ecf-bda6-157a626a7167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.1038 53.34 0)
+			(at 27.3738 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1873,7 +1919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2296fdd8-ee1a-4a27-b1ae-f27de4e412d3")
-		(property "Reference" "C27"
+		(property "Reference" "C1"
 			(at 207.01 20.3262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,7 +1983,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35"
-					(reference "C27")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1955,7 +2001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eaad2b9-4d2e-4ce9-82e3-c644b5479855")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR03"
 			(at 233.68 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2015,7 +2061,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35"
-					(reference "#PWR017")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2033,7 +2079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "435fe57d-29cd-447d-a368-6f6dd5cb1bc1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 204.47 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -2093,7 +2139,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2111,7 +2157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eadae78-37ad-49f4-814f-1bf646a36188")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 235.8233 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,7 +2360,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2332,7 +2378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a552a406-eaaf-4a67-832c-6070bba0b10e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR02"
 			(at 204.47 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -2392,14 +2438,14 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35"
-					(reference "#PWR039")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 67.31 45.72)
+		(at 76.2 25.4)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2415,7 +2461,7 @@
 		)
 		(uuid "1bb64621-37a6-4f79-84fe-8a9a999dcffc")
 		(property "Sheetname" "TPS61089"
-			(at 67.31 45.0084 0)
+			(at 76.2 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2426,7 +2472,7 @@
 			)
 		)
 		(property "Sheetfile" "tps61089.kicad_sch"
-			(at 67.31 51.3846 0)
+			(at 76.2 31.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2437,7 +2483,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 67.31 48.26 180)
+			(at 76.2 27.94 180)
 			(uuid "19aa26f0-1d26-40bb-929f-b3186da18e54")
 			(effects
 				(font
@@ -2447,7 +2493,7 @@
 			)
 		)
 		(pin "VOUT" input
-			(at 80.01 48.26 0)
+			(at 88.9 27.94 0)
 			(uuid "926d9446-8c10-4440-b4a5-2f8b0c24bbb2")
 			(effects
 				(font
@@ -2465,7 +2511,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 50.8)
+		(at 101.6 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2481,7 +2527,7 @@
 		)
 		(uuid "345fcbde-0403-4e9a-a959-8171526cc73f")
 		(property "Sheetname" "TLV75733"
-			(at 165.1 50.0884 0)
+			(at 101.6 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2492,7 +2538,7 @@
 			)
 		)
 		(property "Sheetfile" "tlv75733.kicad_sch"
-			(at 165.1 64.0846 0)
+			(at 101.6 38.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2503,7 +2549,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 165.1 53.34 180)
+			(at 101.6 27.94 180)
 			(uuid "1f7c6549-b42c-4e96-a3ed-0dfd83d063b3")
 			(effects
 				(font
@@ -2513,7 +2559,7 @@
 			)
 		)
 		(pin "VOUT" input
-			(at 177.8 53.34 0)
+			(at 114.3 27.94 0)
 			(uuid "39022253-06d1-424e-9329-969fe39e2de6")
 			(effects
 				(font
@@ -2531,7 +2577,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 25.4)
+		(at 50.8 63.5)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2547,7 +2593,7 @@
 		)
 		(uuid "632ea940-9d01-47e8-9513-6b7d82e97fc5")
 		(property "Sheetname" "BQ25895"
-			(at 43.18 24.6884 0)
+			(at 50.8 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2558,7 +2604,7 @@
 			)
 		)
 		(property "Sheetfile" "bq25895.kicad_sch"
-			(at 43.18 38.6846 0)
+			(at 50.8 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2569,7 +2615,7 @@
 			)
 		)
 		(pin "BAT+" input
-			(at 43.18 27.94 180)
+			(at 50.8 66.04 180)
 			(uuid "02d7afde-21aa-4c38-bda6-1d49ad60f923")
 			(effects
 				(font
@@ -2579,7 +2625,7 @@
 			)
 		)
 		(pin "CE" input
-			(at 55.88 27.94 0)
+			(at 63.5 66.04 0)
 			(uuid "ae204f87-b79a-4378-8558-219fed631437")
 			(effects
 				(font
@@ -2589,7 +2635,7 @@
 			)
 		)
 		(pin "INT" input
-			(at 55.88 30.48 0)
+			(at 63.5 68.58 0)
 			(uuid "24b64a5e-1a05-44c2-9b83-00a20e7295cf")
 			(effects
 				(font
@@ -2599,7 +2645,7 @@
 			)
 		)
 		(pin "OTG" input
-			(at 43.18 35.56 180)
+			(at 50.8 73.66 180)
 			(uuid "8f277b01-aeae-41e1-a38a-d433ef8bd68a")
 			(effects
 				(font
@@ -2609,7 +2655,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 55.88 33.02 0)
+			(at 63.5 71.12 0)
 			(uuid "e62bcf05-6162-484a-a5a1-ad47855fefaf")
 			(effects
 				(font
@@ -2619,7 +2665,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 55.88 35.56 0)
+			(at 63.5 73.66 0)
 			(uuid "86593661-4511-4da9-a18a-d0c9ae53414f")
 			(effects
 				(font
@@ -2629,7 +2675,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 43.18 30.48 180)
+			(at 50.8 68.58 180)
 			(uuid "cccc0e93-3ee0-4994-81a4-ddc3f50fceb4")
 			(effects
 				(font
@@ -2639,7 +2685,7 @@
 			)
 		)
 		(pin "VOUT" input
-			(at 43.18 33.02 180)
+			(at 50.8 71.12 180)
 			(uuid "c36a20a1-d882-483c-927b-fe83f446fde4")
 			(effects
 				(font
@@ -2657,7 +2703,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 45.72)
+		(at 101.6 50.8)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2673,7 +2719,7 @@
 		)
 		(uuid "b58734b6-a6f6-4547-b140-16953b8cb461")
 		(property "Sheetname" "TPS22917"
-			(at 92.71 45.0084 0)
+			(at 101.6 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2684,7 +2730,7 @@
 			)
 		)
 		(property "Sheetfile" "tps22917.kicad_sch"
-			(at 92.71 57.7346 0)
+			(at 101.6 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2695,7 +2741,7 @@
 			)
 		)
 		(pin "ON" input
-			(at 92.71 54.61 180)
+			(at 101.6 59.69 180)
 			(uuid "0e9361b0-a7e2-489b-ad8e-3f2489de276e")
 			(effects
 				(font
@@ -2705,7 +2751,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 92.71 48.26 180)
+			(at 101.6 53.34 180)
 			(uuid "f199ff87-057a-4b2d-b13e-2e812d47d00d")
 			(effects
 				(font
@@ -2715,7 +2761,7 @@
 			)
 		)
 		(pin "VOUT" input
-			(at 105.41 48.26 0)
+			(at 114.3 53.34 0)
 			(uuid "b1bad847-caf6-4f58-9361-17c243073dc1")
 			(effects
 				(font
@@ -2733,7 +2779,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 45.72)
+		(at 38.1 25.4)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2749,7 +2795,7 @@
 		)
 		(uuid "f17bf38e-84eb-4b8c-8211-b5a252381cf0")
 		(property "Sheetname" "BQ27441"
-			(at 36.83 45.0084 0)
+			(at 38.1 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2760,7 +2806,7 @@
 			)
 		)
 		(property "Sheetfile" "bq27441.kicad_sch"
-			(at 36.83 56.4646 0)
+			(at 38.1 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2771,7 +2817,7 @@
 			)
 		)
 		(pin "BATTOUT" input
-			(at 62.23 48.26 0)
+			(at 63.5 27.94 0)
 			(uuid "dc9a3020-5ad5-4948-a6dc-0423b5514787")
 			(effects
 				(font
@@ -2781,7 +2827,7 @@
 			)
 		)
 		(pin "GPOUT" input
-			(at 36.83 48.26 180)
+			(at 38.1 27.94 180)
 			(uuid "49ec9d5c-bbe6-4ba4-b1f6-5586922e95fb")
 			(effects
 				(font
@@ -2791,7 +2837,7 @@
 			)
 		)
 		(pin "PACK+" input
-			(at 36.83 50.8 180)
+			(at 38.1 30.48 180)
 			(uuid "2b4c64dc-a548-43d6-ae3f-7f962e901a5a")
 			(effects
 				(font
@@ -2801,7 +2847,7 @@
 			)
 		)
 		(pin "PACK-" input
-			(at 36.83 53.34 180)
+			(at 38.1 33.02 180)
 			(uuid "c3b4922d-08be-47dd-a3dd-0e7f16242de9")
 			(effects
 				(font
@@ -2811,7 +2857,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 62.23 50.8 0)
+			(at 63.5 30.48 0)
 			(uuid "8e62b330-54c6-4726-b94c-efa40a56a9d9")
 			(effects
 				(font
@@ -2821,7 +2867,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 62.23 53.34 0)
+			(at 63.5 33.02 0)
 			(uuid "d9f31fb2-ecf7-4327-a7f0-48e5aeb88753")
 			(effects
 				(font
