@@ -741,7 +741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0410846d-7d06-40d3-a75e-2a9774069c76")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 44.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -801,7 +801,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/345fcbde-0403-4e9a-a959-8171526cc73f"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -819,7 +819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aaea5c6-cc82-4834-a12f-46bb742ed4cb")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 63.5 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -883,7 +883,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/345fcbde-0403-4e9a-a959-8171526cc73f"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -901,7 +901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616f2936-4047-4793-820d-dc402e0c0fa5")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 44.45 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -973,7 +973,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/345fcbde-0403-4e9a-a959-8171526cc73f"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -991,7 +991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd3c720-f608-4d9a-8927-764c6262473d")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 30.48 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1055,7 +1055,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/345fcbde-0403-4e9a-a959-8171526cc73f"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -1073,7 +1073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf573ce-8d0b-49ed-bf1e-8f488364e462")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 74.93 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1137,7 +1137,7 @@
 		(instances
 			(project "PMM-1.0-R1"
 				(path "/dfbd1ee6-4059-4519-bc2e-4814be9dda35/345fcbde-0403-4e9a-a959-8171526cc73f"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
