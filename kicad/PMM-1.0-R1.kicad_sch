@@ -2386,30 +2386,6 @@
 		)
 		(uuid "ff2cd0d6-95fa-4d60-ab14-3b3acb4999a4")
 	)
-	(global_label "BATT+"
-		(shape input)
-		(at 213.36 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12aef774-6f2e-408a-b94c-a119c9cd41df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.9038 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BQ25895_CE"
 		(shape input)
 		(at 74.93 33.02 180)
@@ -2423,30 +2399,6 @@
 		(uuid "20ef31d8-7f82-4123-8c03-6ae88061c2e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.9102 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BATT-"
-		(shape input)
-		(at 213.36 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22614654-3b94-4068-8b50-df6235563b8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.9038 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,6 +2471,30 @@
 		(uuid "44bd9930-914f-4e63-9934-403d3a1bd798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.8672 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PACK+"
+		(shape input)
+		(at 213.36 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46362f93-a2b0-43e8-ac78-784e64500e43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.9038 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,6 +3119,30 @@
 		(uuid "d5a77dc5-5f68-4539-a326-4b184b6c3b4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.9102 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PACK-"
+		(shape input)
+		(at 213.36 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8048048-84cb-45d2-8702-8c4319725a07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.9038 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

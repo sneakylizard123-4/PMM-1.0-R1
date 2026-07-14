@@ -2142,16 +2142,16 @@
 		(uuid "6085f5e9-b9e1-416e-8ae6-1ec92c724eb0")
 	)
 	(junction
-		(at 124.46 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fdcf01e-0561-4051-995e-be79bc048668")
-	)
-	(junction
 		(at 34.29 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81cc3d0d-07c0-49d7-bf45-f088ec480c0d")
+	)
+	(junction
+		(at 124.46 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9618dd47-0528-490f-b162-d2312446fcf4")
 	)
 	(junction
 		(at 129.54 80.01)
@@ -2269,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 67.31) (xy 125.73 67.31)
+			(xy 124.46 68.58) (xy 125.73 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2279,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 124.46 67.31)
+			(xy 124.46 77.47) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2769,6 +2769,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 68.58) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e225ef47-a452-412b-9782-859a30800de7")
+	)
+	(wire
+		(pts
 			(xy 81.28 85.09) (xy 58.42 85.09)
 		)
 		(stroke
@@ -2827,6 +2837,26 @@
 		)
 		(uuid "fb228a66-0458-4baa-a655-a92dd05c093d")
 	)
+	(label "BQ25895_VOUT"
+		(at 123.19 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74256868-0cdb-4c48-85d6-b8a701709979")
+	)
+	(label "BQ25895_VIN"
+		(at 60.96 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97239c0a-0f09-4f4f-b927-1731fd106b56")
+	)
 	(hierarchical_label "BAT+"
 		(shape input)
 		(at 135.89 80.01 0)
@@ -2851,7 +2881,7 @@
 	)
 	(hierarchical_label "VOUT"
 		(shape input)
-		(at 125.73 67.31 0)
+		(at 125.73 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
