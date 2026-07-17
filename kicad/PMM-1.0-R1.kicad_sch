@@ -2770,6 +2770,30 @@
 			)
 		)
 	)
+	(global_label "5V_OUT"
+		(shape input)
+		(at 153.67 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fe3943a-9e6f-4637-8b7a-96ed184fa5c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.5495 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BQ25895_CE"
 		(shape input)
 		(at 74.93 55.88 180)
@@ -2938,6 +2962,30 @@
 			)
 		)
 	)
+	(global_label "VBUS_5V_IN"
+		(shape input)
+		(at 74.93 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b43ed41e-3de5-461b-87c1-c4c09f25ab6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.9209 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FORCE_ON"
 		(shape input)
 		(at 214.63 71.12 180)
@@ -3023,54 +3071,6 @@
 		(uuid "bdab4a80-1357-44ca-a7f1-1b6d86dbc078")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.5014 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VIN"
-		(shape input)
-		(at 74.93 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c196e283-b0c7-40dd-8311-efb605ead9de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9209 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VOUT"
-		(shape input)
-		(at 153.67 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7254789-9087-4ff7-9108-6247ae44fc4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.3724 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
