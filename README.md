@@ -52,8 +52,8 @@ USB VBUS (5V)
 | LEDs | 3 |
 | Ferrite Beads | 2 |
 | Thermistor | 1 |
-| Test Points | 2 |
-| **Total Components** | **66** |
+| Test Points | 4 |
+| **Total Components** | **68** |
 
 ## Key ICs
 
@@ -109,15 +109,3 @@ PMM-1.0-R1/
 ## License
 
 Open source hardware - see project repository for details.
-
-## Development
-
-This project uses [kicad-happy](https://github.com/aklofas/kicad-happy) for automated design review:
-
-```bash
-# Analyze schematic
-python3 ~/.claude/plugins/cache/kicad-happy/kicad-happy/2.0.0/skills/kicad/scripts/analyze_schematic.py kicad/PMM-1.0-R1.kicad_sch --output analysis.json
-
-# Analyze PCB
-python3 ~/.claude/plugins/cache/kicad-happy/kicad-happy/2.0.0/skills/kicad/scripts/analyze_pcb.py kicad/PMM-1.0-R1.kicad_pcb --output pcb_analysis.json
-```
