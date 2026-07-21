@@ -117,6 +117,9 @@ Build: RAM 4.5%, Flash 62.3%
 
 ## Images
 
+### 3D Model
+![3D Isometric View](images/pcb-3d.png)
+
 ### PCB Layout
 ![PCB Top](images/pcb-top.png)
 
