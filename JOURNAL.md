@@ -12,7 +12,7 @@ created_at: "2026-07-05T00:00:00Z"
 started the KiCad project with the root schematic.
 added datasheets for all the key ICs: BQ25895, BQ27441-G1, STM32C031C4, TPS22917, TPS61089.
 ran TPS61089 WebBench simulations and saved the waveforms and BOM.
-![sim](datasheets/simulations/TPS61089/amCharts.png)
+![sim](images/sim-tps61089.png)
 
 **Total time spent: 4 hours**
 
@@ -20,6 +20,7 @@ ran TPS61089 WebBench simulations and saved the waveforms and BOM.
 
 worked on the 3.3V regulator section of the schematic.
 started laying out the TLV75733 LDO subcircuit.
+![tlv75733](images/PMM-1.0-R1-TLV75733.svg)
 
 **Total time spent: 2 hours**
 
@@ -28,7 +29,7 @@ started laying out the TLV75733 LDO subcircuit.
 broke the schematic into hierarchical sub-sheets for each major IC:
 BQ25895 charger, BQ27441 fuel gauge, TPS61089 boost, TPS22917 load switch, TLV75733 LDO, STM32 MCU.
 fixed the 3.3V regulator circuit and cleaned up the sub-sheet connections.
-reorganized gitignore.
+![root-sch](images/PMM-1.0-R1.svg)
 
 **Total time spent: 3 hours**
 
@@ -37,7 +38,7 @@ reorganized gitignore.
 completed all schematic sub-sheets and net connections.
 added the STM32 sub-sheet with full MCU pin mapping.
 created a custom PMM symbol and footprint in the Parts library.
-![sch](images/SCH.png)
+![stm32](images/PMM-1.0-R1-STM32.svg)
 
 **Total time spent: 5 hours**
 
@@ -47,6 +48,7 @@ started PCB layout and routed most of the board.
 added the TPS61089 datasheet (tlv757p.pdf).
 finished the schematic and did multiple routing passes.
 added the README with full project documentation and power architecture diagram.
+![pcb](images/pcb-top.png)
 
 **Total time spent: 6 hours**
 
@@ -55,6 +57,7 @@ added the README with full project documentation and power architecture diagram.
 finished the 4-layer PCB layout.
 completed BQ25895 routing and all remaining traces.
 added PMM symbol and footprint to Parts library.
+![pcb](images/pcb-top.png)
 
 **Total time spent: 5 hours**
 
@@ -64,6 +67,7 @@ added silkscreen art — empire and linux penguin logos.
 reorganized the Parts library structure (renamed logo/ to logo.pretty/).
 moved the schematic sub-sheets into a hierarchical backup, cleaned up the main project.
 updated the README.
+![pcb-bottom](images/pcb-bottom.png)
 
 **Total time spent: 3 hours**
 
@@ -81,5 +85,6 @@ PlatformIO doesn't ship it yet. Fixed build errors: wrong I2C AF, no APB prescal
 on C0, ADC sample time, extern declarations.
 
 RAM: 4.5% (552 bytes). Flash: 62.3% (20 KB).
+![bq25895](images/PMM-1.0-R1-BQ25895.svg)
 
 **Total time spent: 4 hours**
