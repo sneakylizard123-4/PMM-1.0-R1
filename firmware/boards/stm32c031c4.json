@@ -1,0 +1,47 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32C031xx -DSTM32C0",
+    "f_cpu": "48000000L",
+    "mcu": "stm32c031c4t6",
+    "product_line": "STM32C031xx",
+    "variant": "STM32C0xx/C031C(4-6)T"
+  },
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "jlink_device": "STM32C031C4",
+    "onboard_tools": [
+      "stlink"
+    ],
+    "openocd_target": "stm32c0x",
+    "svd_path": "STM32C031xx.svd"
+  },
+  "frameworks": [
+    "stm32cube",
+    "cmsis",
+    "libopencm3"
+  ],
+  "name": "STM32C031C4T6 (32K Flash, 12K RAM)",
+  "upload": {
+    "disable_flushing": false,
+    "maximum_ram_size": 12288,
+    "maximum_size": 32768,
+    "protocol": "stlink",
+    "protocols": [
+      "jlink",
+      "cmsis-dap",
+      "stlink",
+      "blackmagic",
+      "serial",
+      "dfu"
+    ],
+    "require_upload_port": true,
+    "use_1200bps_touch": false,
+    "wait_for_upload_port": false
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32c031c4.html",
+  "vendor": "STMicroelectronics"
+}
