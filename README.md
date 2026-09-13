@@ -2,6 +2,9 @@
 
 USB-C battery management board. Charges a Li-ion/LiPo cell, reports state of charge with a real fuel gauge (BQ27441), and boosts to a switched 5V output. 50x30mm, four-layer PCB.
 
+## NOTE TO REVIEWER!!!
+iv rewritten this thing multiple times
+
 ## Why I built this
 
 I keep building things that run off batteries, and I got tired of re-laying-out a charger and a boost converter from scratch every time. Every battery project needs the same core: charge the cell, know what's left, and get a usable rail out of a cell that sags from 4.2V down to about 3V. I was doing that discretely each time, with a different charger layout, a different output stage, and no consistency between projects.
